@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!!");
+
+            Car Daily = new Car();
+
+            Daily.Make = "Porsche";
+            Daily.Model = "Cayman";
+            Daily.Year = 2025;
+
+            Console.WriteLine(Daily.Make);
+            Console.WriteLine(Daily.Model);
+            Console.WriteLine(Daily.Year);
+
         }
     }
 }

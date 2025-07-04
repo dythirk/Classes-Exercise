@@ -11,9 +11,9 @@
             Daily.Model = "Cayman";
             Daily.Year = 2025;
 
-            Console.WriteLine(Daily.Make);
-            Console.WriteLine(Daily.Model);
-            Console.WriteLine(Daily.Year);
+            Console.WriteLine("Make: " + Daily.Make);
+            Console.WriteLine("Model: " + Daily.Model);
+            Console.WriteLine("Year: " + Daily.Year);
 
         }
     }
